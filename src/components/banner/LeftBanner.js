@@ -4,7 +4,7 @@ import Media from './Media';
 import mycv from '../../assets/RuweydaAlicV.pdf'
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Professional full stack developer.", "web Developer.", "UI/ux Designer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
