@@ -20,7 +20,7 @@ const ProjectsCard = ({ title, des, src }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-12 h-12 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <span className="text-lg w-16 h-16 text-1xl rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
              <a href='https://github.com/ruwaruwa'>Github</a>
               {/* <BsGithub    onclick={`location.href='https://github.com/ruwaruwa'`}/>  */}
               {/* <button onclick="location.href='https://github.com/ruwaruwa'">Github</button> */}
@@ -32,9 +32,9 @@ const ProjectsCard = ({ title, des, src }) => {
             onclick="location.href='https://github.com/ruwaruwa'"
           /> */}
               </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              {/* <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <FaGlobe />
-              </span>
+              </span> */}
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">

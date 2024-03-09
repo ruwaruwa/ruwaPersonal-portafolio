@@ -21,8 +21,8 @@ export const navLinksdata = [
   },
   // {
   //   _id: 1005,
-  //   title: "",
-  //   link: "",
+  //   title: "DownloadCV",
+  //   link: "DownloadCV",
   // },
   {
     _id: 1006,

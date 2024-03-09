@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
-
+import mycv from '../../assets/RuweydaAlicV.pdf'
 const LeftBanner = () => {
     const [text] = useTypewriter({
       words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
@@ -13,10 +13,23 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        {/* <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4> */}
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Ruweyda Ali</span>
         </h1>
+        <div className="home-buttons gap-10">
+              <a
+                className="bg-blue-500 p-2 rounded-lg btn-hire"
+                href="https://web.whatsapp.com/send?phone=616487207"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Hire Me
+              </a>{" "}{" "}
+              <a className="bg-green-500 rounded-lg p-2 sm:ml-4" href={mycv} download="RuweydaAlicV.pdf">
+                My Resume
+              </a>
+            </div>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
@@ -25,6 +38,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
+       
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         I am a full-stack developer with great love in building websites 
         and web applications. I specialize in JavaScript
