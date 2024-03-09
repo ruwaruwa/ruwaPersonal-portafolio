@@ -27,7 +27,7 @@ const LeftBanner = () => {
                 Hire Me
               </a>{" "}{" "}
               <a className="bg-green-500 rounded-lg p-2 sm:ml-4" href={mycv} download="RuweydaAlicV.pdf">
-                My Resume
+                Download Cv
               </a>
             </div>
         <h2 className="text-4xl font-bold text-white">
