@@ -12,8 +12,8 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "ui/ux Designer",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "UI/UX Designer",
+    des: "I'am UI/UX designer with a strong focus on creating intuitive and engaging digital experiences. With expertise in user research, wireframing, prototyping, and interface",
   },
   // {
   //   id: 3,
@@ -31,7 +31,7 @@ export const featuresData = [
     id: 5,
     icon: <SiAntdesign />,
     title: "Graphic Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "I'am is a skilled graphic designer with a passion for creating visually captivating designs",
   },
   // {
   //   id: 6,
