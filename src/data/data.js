@@ -13,7 +13,7 @@ export const featuresData = [
     id: 2,
     icon: <AiFillAppstore />,
     title: "UI/UX Designer",
-    des: "I'am UI/UX designer with a strong focus on creating intuitive and engaging digital experiences. With expertise in user research, wireframing, prototyping, and interface",
+    des: "I'am UI/UX Designer with a strong focus on creating intuitive and engaging digital experiences. With expertise in user research, wireframing, prototyping, and interface",
   },
   // {
   //   id: 3,
