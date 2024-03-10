@@ -1,10 +1,10 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
-import mycv from '../../assets/RuweydaAlicV.pdf'
+import mycv from '../../assets/ruweidaCV.pdf'
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional full stack developer.", "web Developer.", "UI/ux Designer."],
+      words: ["Professional full stack developer.", "Web Developer.", "UI/Ux Designer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,12 +26,12 @@ const LeftBanner = () => {
               >
                 Hire Me
               </a>{" "}{" "}
-              <a className="bg-green-500 rounded-lg p-2 sm:ml-4" href={mycv} download="RuweydaAlicV.pdf">
+              <a className="bg-green-500 rounded-lg p-2 sm:ml-4" href={mycv} download="ruweidaCV.pdf">
                 Download Cv
               </a>
             </div>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          A <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"

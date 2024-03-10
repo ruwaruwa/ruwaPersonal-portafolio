@@ -31,7 +31,7 @@ const Experience = () => {
             des=""
           />
           <ResumeCard
-            title="FULL Stack Developer "
+            title="FULL Stack Development with mern stack "
             subTitle="Rice Accademy)"
             result=""
             des="muqdishu-somalia"
@@ -50,7 +50,7 @@ const Experience = () => {
             result=""
             des="I am a full-stack developer with great love in building websites and web applications. "/>
           <ResumeCard
-            title="Web designer "
+            title="Web Designer "
             subTitle="kahiye tech"
             result="somalia"
             des=""

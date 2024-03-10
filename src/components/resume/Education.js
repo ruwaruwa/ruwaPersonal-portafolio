@@ -23,7 +23,7 @@ const Education = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
           <ResumeCard
-            title="bachelor of Computer Science"
+            title="Bachelor of Computer Science"
             subTitle="somali international university (2021 - 2024)"
             result=""
             des="The training provided by universities in order to prepare people to work in various sectors of the communications ."
@@ -50,7 +50,7 @@ const Education = () => {
             des="Diploma of fuLL stack development "
           />
             <ResumeCard
-            title="graphic design  "
+            title="Graphic Design  "
             subTitle="kahiye tech (2023)"
             result=""
             des="Diploma of graphic deign "
@@ -67,7 +67,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="full stack developer"
+            title="Full stack developer"
             subTitle="Negaad institude of
             Technology- (2023)"
             result="Muqdishu-somalia"
@@ -76,7 +76,7 @@ const Education = () => {
             "
           />
           <ResumeCard
-            title="cumputer enginer "
+            title="Cumputer enginer "
             subTitle="Apple Developer Team - (2012 - 2016)"
             result="somali international university "
             des="Training on Computer Hardware at Somali
