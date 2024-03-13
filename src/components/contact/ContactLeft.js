@@ -19,10 +19,10 @@ const ContactLeft = () => {
         I am a full-stack developer with great love in building websites 
         and web applications. 
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        <p className="text-base ml-5 text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+252616487207</span>
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        <p className=" ml-5 text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">aruweyda45@gmail.com</span>
         </p>
       </div>
