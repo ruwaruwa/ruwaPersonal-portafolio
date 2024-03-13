@@ -11,11 +11,11 @@ const Education = () => {
     >
       {/* part one */}
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 text-center">
           <p className="text-sm text-designColor tracking-[4px]">2012 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education </h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6  lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
             title="Secondary School Education"
             subTitle="Secondary Education: Ileys Primary (Mogadishu, Somalia, 2012-2020)"
@@ -54,18 +54,18 @@ const Education = () => {
             subTitle="kahiye tech (2023)"
             result=""
             des="Diploma of graphic deign "
-          />
+          className="mt"/>
         
         </div>
       </div>
       {/* part Two */}
 
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Profisional Skills</h2>
+        <div className="py-12 lgl:py-12 font-titleFont flex flex-col gap-4 bg- green-400 ">
+          <p className="text-sm text-designColor tracking-[4px] text-center ">2022 - 2024</p>
+          <h2 className="sm:ml-0 text-center  text-3xl md:text-4xl font-bold">Profisional Skills</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-8 lgl:mt-16 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Full stack developer"
             subTitle="Negaad institude of
@@ -75,13 +75,13 @@ const Education = () => {
             institude of technology
             "
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Cumputer enginer "
             subTitle="Apple Developer Team - (2012 - 2016)"
             result="somali international university "
             des="Training on Computer Hardware at Somali
             International University-SIU, with a growing number of highly qualified "
-          />
+          /> */}
           {/* <ResumeCard
             title="full stack Developer"
             subTitle="Somali international university - (2022 - 203)"

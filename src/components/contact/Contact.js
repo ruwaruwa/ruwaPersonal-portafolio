@@ -29,8 +29,6 @@ const Contact = () => {
       setErrMsg("Please give your Email!");
     } else if (!emailValidation(email)) {
       setErrMsg("Give a valid Email!");
-    } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
@@ -48,9 +46,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-28 border-b-[1px] border-b-black "
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center items-center text-center ">
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className="w-full">
